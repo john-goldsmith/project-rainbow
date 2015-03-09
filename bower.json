@@ -1,0 +1,24 @@
+{
+  "name": "bejeweled",
+  "version": "1.0.0",
+  "authors": [
+    "John Goldsmith <johngoldsm1@gmail.com>"
+  ],
+  "description": "Bejeweled clone built using JavaScript",
+  "main": "index.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
