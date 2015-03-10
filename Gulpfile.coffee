@@ -32,7 +32,7 @@ gulp.task "coffee", ->
   gulp.src config.paths.coffee
     .pipe $.coffee()
     .pipe $.concat "application.js"
-    # .pipe $.uglify()
+    .pipe $.uglify()
     .pipe $.rename suffix: ".min"
     .pipe gulp.dest config.paths.dist
 
